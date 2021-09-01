@@ -19,186 +19,173 @@
     <title>Responsive Portfolio Website</title>
   </head>
   <body>
-    <!--==================== HEADER ====================-->
-    <header class="header" id="header">
-      <nav class="nav container">
-        <a href="#" class="nav__logo">Nikos</a>
-
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list grid">
-            <li class="nav__item">
-              <a href="#home" class="nav__link">
-                <i class="uil uil-estate nav__icon"></i> Home
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#about" class="nav__link">
-                <i class="uil uil-user nav__icon"></i> About
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">
-                <i class="uil uil-file-alt nav__icon"></i>
-                Skills
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#portfolio" class="nav__link">
-                <i class="uil uil-scenery nav__icon"></i>
-                Portfolio
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#contact" class="nav__link">
-                <i class="uil uil-message nav__icon"></i>
-                Contact
-              </a>
-            </li>
-          </ul>
-          <i class="uil uil-times nav__close" id="nav-close"></i>
-        </div>
-
-        <div class="nav__btns">
-          <div class="nav__toggle" id="nav-toggle">
-            <i class="uil uil-apps"></i>
-          </div>
-        </div>
-      </nav>
-    </header>
-
     <!--==================== MAIN ====================-->
-    <main class="main">
-      <!--==================== HOME ====================-->
-      <section class="home section" id="home">
-        <div class="home__container container grid">
-          <div class="home__content grid">
-            <div class="home__social">
+    <main>
+      <!--==================== HEADER ====================-->
+      <header>
+        <div class="overlay overlay-lg">
+          <img src="assets/img/shapes/square.png" class="shape square" alt="" />
+          <img src="assets/img/shapes/circle.png" class="shape circle" alt="" />
+          <img
+            src="assets/img/shapes/half-circle.png"
+            class="shape half-circle1"
+            alt=""
+          />
+          <img
+            src="assets/img/shapes/half-circle.png"
+            class="shape half-circle2"
+            alt=""
+          />
+          <img src="assets/img/shapes/x.png" class="shape xshape" alt="" />
+          <img
+            src="assets/img/shapes/wave.png"
+            class="shape wave wave1"
+            alt=""
+          />
+          <img
+            src="assets/img/shapes/wave.png"
+            class="shape wave wave2"
+            alt=""
+          />
+          <img
+            src="assets/img/shapes/triangle.png"
+            class="shape triangle"
+            alt=""
+          />
+          <img src="assets/img/shapes/letters.png" class="letters" alt="" />
+          <img
+            src="assets/img/shapes/points1.png"
+            class="points points1"
+            alt=""
+          />
+        </div>
+
+        <nav>
+          <div class="container">
+            <div class="logo">
+              <img src="assets/img/logo.png" alt="" />
+            </div>
+
+            <div class="links">
+              <ul>
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#">About</a>
+                </li>
+                <li>
+                  <a href="#">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+                <li>
+                  <a href="#" class="active">Hire me</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="header-content">
+          <div class="container grid-2">
+            <div class="column-1">
+              <h1 class="header-title">
+                Hi, I am <span class="header-title-color">Nikos</span>
+              </h1>
+              <p class="text">
+                Software Enginner with the ability to adapt to any situation and
+                proven potential to grow self and others.
+              </p>
+
               <a
                 href="https://www.linkedin.com/in/walchoice/"
                 target="_blank"
-                class="home__social-icon"
+                class="social-icon"
               >
-                <i class="uil uil-linkedin-alt"></i>
+                <i class="uil uil-linkedin"></i>
               </a>
               <a
                 href="https://github.com/WalCho"
                 target="_blank"
-                class="home__social-icon"
+                class="social-icon"
               >
-                <i class="uil uil-github-alt"></i>
+                <i class="uil uil-github"></i>
               </a>
               <a
                 href="https://www.codingame.com/profile/3661abfd624fbb38ff4725ae33119c657875034"
                 target="_blank"
-                class="home__social-icon"
+                class="social-icon"
               >
                 <i class="uil uil-brackets-curly"></i>
               </a>
+
+              <a href="#" class="button">Download CV</a>
             </div>
 
-            <div class="home__img">
-              <svg
-                class="home__blob"
-                viewBox="0 0 200 187"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-              >
-                <mask id="mask0" mask-type="alpha">
-                  <path
-                    d="M62.8,-24.4C69.5,0.1,54.7,27.5,34.8,40.2C14.9,52.8,-10.2,50.7,-32.2,36.5C-54.3,22.4,-73.3,-3.8,
-                    -67.4,-27.2C-61.5,-50.5,-30.8,-71.1,-1.3,-70.7C28.1,-70.2,56.2,-48.8,62.8,-24.4Z"
-                    transform="translate(100 100)"
-                  />
-                </mask>
-                <g mask="url(#mask0)">
-                  <path
-                    d="M62.8,-24.4C69.5,0.1,54.7,27.5,34.8,40.2C14.9,52.8,-10.2,50.7,-32.2,36.5C-54.3,22.4,-73.3,-3.8,
-                    -67.4,-27.2C-61.5,-50.5,-30.8,-71.1,-1.3,-70.7C28.1,-70.2,56.2,-48.8,62.8,-24.4Z"
-                    transform="translate(100 100)"
-                  />
-                  <image
-                    class="home__blob-img"
-                    x="30"
-                    y="15"
-                    href="assets/img/me.png"
-                  />
-                </g>
-              </svg>
+            <div class="column-2 image">
+              <img
+                src="assets/img/shapes/points2.png"
+                class="points points2"
+                alt=""
+              />
+              <img src="assets/img/me.png" class="img-element z-index" alt="" />
             </div>
-
-            <div class="home__data">
-              <h1 class="home__title">
-                Hi, I am
-                <span class="home__title-color">Nikos</span>
-              </h1>
-              <h3 class="home__subtitle">Software Engineer</h3>
-              <a href="#contact" class="button button--flex">
-                Contact me
-                <i class="uil uil-message button__icon"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="home__scroll">
-            <a href="#about" class="home__scroll-button button--flex">
-              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-              <span class="home__scroll-name">Scroll down</span>
-              <i class="uil uil-arrow-down home__scroll-arrow"></i>
-            </a>
           </div>
         </div>
-      </section>
+      </header>
 
       <!--==================== ABOUT ====================-->
-      <section class="about section" id="about">
-        <h2 class="section__title">About Me</h2>
-        <span class="section__subtitle">My Introduction</span>
-
-        <div class="about__container container grid">
-          <img src="assets/img/about.jpg" alt="" class="about__img" />
-
-          <div class="about__data">
-            <p class="about__description">
-              I am a Software Engineer with a Bachelor's Degree in Computer
-              Science. My goal is to create and execute innovative software
-              solutions to enhance business productivity. My passion is to work
-              with extremely talented people and collaborate to make products
-              that would make an immediate impact.
-            </p>
+      <section class="about section">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Who am I">About me</h3>
           </div>
 
-          <div class="about__buttons">
-            <a
-              download=""
-              href="assets/pdf/NIKOS_VALTSIOGIS_CV.pdf"
-              class="button button--flex"
-            >
-              Download CV<i class="uil uil-download-alt button__icon"></i>
-            </a>
+          <div class="section-body grid-2">
+            <div class="column-1 image">
+              <img src="assets/img/shapes/points4.png" class="points" alt="" />
+              <img
+                src="assets/img/about.jpg"
+                class="about-img z-index"
+                alt=""
+              />
+            </div>
+
+            <div class="column-2">
+              <p class="text">
+                I am a Software Engineer with a Bachelor's Degree in Computer
+                Science. My goal is to create and execute innovative software
+                solutions to enhance business productivity. My passion is to
+                work with extremely talented people and collaborate to make
+                products that would make an immediate impact.
+              </p>
+              <h2 class="skills-title">Skills</h2>
+              <span class="skills-subtitle">My technical level</span>
+              <div class="skills">
+                <ul>
+                  <li>Java</li>
+                  <li>Spring</li>
+                  <li>Maven</li>
+                  <li>MySQL/MariaDB</li>
+                  <li>REST</li>
+                </ul>
+
+                <ul>
+                  <li>Python</li>
+                  <li>C</li>
+                  <li>HTML/CSS</li>
+                  <li>JavaScript</li>
+                  <li>Git</li>
+                </ul>
+              </div>
+              <a href="#" class="button">Read More</a>
+            </div>
           </div>
         </div>
       </section>
-
-      <!--==================== SKILLS ====================-->
-      <section class="skills section" id="skills"></section>
-
-      <!--==================== QUALIFICATION ====================-->
-      <section class="qualification section"></section>
-
-      <!--==================== PORTFOLIO ====================-->
-      <section class="portfolio section" id="portfolio"></section>
-
-      <!--==================== CONTACT ME ====================-->
-      <section class="contact section" id="contact"></section>
     </main>
-
-    <!--==================== FOOTER ====================-->
-    <footer class="footer"></footer>
-
-    <!--==================== SCROLL TOP ====================-->
-
-    <!--==================== SWIPER JS ====================-->
-    <script src=""></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
